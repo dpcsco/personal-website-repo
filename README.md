@@ -14,3 +14,4 @@ This project is being started and developed via Vercel, with intention of being 
 
 Details: 
 Markup using JSX (TSX)
+CSS supplemented with tailwind
