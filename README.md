@@ -10,3 +10,7 @@ https://personal-website-repo.vercel.app/
 
 
 This project is being started and developed via Vercel, with intention of being adopted to Coolify and hosting my site locally.
+
+
+Details: 
+Markup using JSX (TSX)
