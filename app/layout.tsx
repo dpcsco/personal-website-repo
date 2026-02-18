@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Image from "next/image";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,8 +27,36 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
+        <div className="flex flex-row w-full bg-white border-bz border-neutral-500 items-center sticky top-0"
+             style={{
+               boxShadow: "10px 0px 60px 10px rgba(60,60,60, 0.5)"
+             }}
+        >
+          <Image
+              className = "p-4"
+              src="/Logo bigger.png"
+              alt="Globe Icon"
+              width={100}
+              height={20}
+              priority
+          />
+          <div className="flex flex-row ps-4">
+            <a href="/">
+              <h4 className="px-6 py-4 text-zinc-800 font-semibold font-sans transition-colors hover:bg-black/[.10] text-lg">
+                Home
+              </h4>
+            </a>
+            <Link className="px-6 py-4 text-zinc-800 font-semibold font-sans transition-colors hover:bg-black/[.10] text-lg" href="/About">
+              About
+            </Link>
+            <Link className="px-6 py-4 text-zinc-800 font-semibold font-sans transition-colors hover:bg-black/[.10] text-lg" href="/Playground">
+              PlayGround
+            </Link>
+          </div>
+
+        </div>
         {children}
       </body>
     </html>
