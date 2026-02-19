@@ -26,8 +26,9 @@ export default function About(){
                          summer intern at a small payroll company called Payroll City.
                     </p>
                     <p className="pt-4 font-mono text-xl tracking-tighter text-stone-600">
-                        I'm A Colorado native, and I love Fort Collins, as well as Colorado as a whole. However, I consider myself 
-                        to be very adventerous and would be open to experiencing life in a new state. I am excited to 
+                        I'm a Colorado native, and I love Fort Collins, as well as Colorado as a whole. However, I consider myself 
+                        to be very adventerous and would be open to experiencing life in a new state. I am excited to see where my skills 
+                        and career take me!
                     </p>
                 </div>
 
