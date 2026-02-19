@@ -19,11 +19,13 @@ export default function Home() {
           <h2 className="pt-2 text-sm uppercase tracking-widest font-semibold text-stone-500">
              Built with Next.js and React, written in TypeScript and styled using Tailwind CSS.
           </h2>
+          {/*
           <h3 className="absolute bottom-0 max-w-lg text-lg font-light leading-relaxed text-stone-400">
              Built with Next.js and React, written in TypeScript and styled using Tailwind CSS.
           </h3>
+          */}
         </div>
-        {/* 
+        {/*
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           <a
             className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
